@@ -10,7 +10,7 @@ const styles = {
 const App = () => (
   <div style={styles}>
     <Hello name="America" />
-    <CountryFlag img=""/>
+    <CountryFlag img="https://rawgit.com/dmitryvinn/hello-country-react/d114bf3970014ad4126fb843ca52fa85f13a6010/src/assets/american-flag.png" />
   </div>
 );
 
