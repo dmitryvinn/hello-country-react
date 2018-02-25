@@ -2,6 +2,17 @@ import React from "react";
 import CountryFlag from "./CountryFlag";
 import Welcome from "./Welcome";
 
+const buttonStyle = {
+  border: 'none',
+  color: '#ffffff',
+  padding: '15px 32px',
+  textAlign: 'center',
+  textDecoration: 'none',
+  display: 'inlineBlock',
+  fontSize: '16px',
+  backgroundColor: '#555555'
+}
+
 class HelloCountry extends React.Component {
   constructor(props) {
     super(props);
@@ -40,7 +51,7 @@ class HelloCountry extends React.Component {
     return (
       <div>
         <Welcome name={this.state.label} />
-        <button onClick={this.changeCountry}>Switch Country</button>
+        <button style={buttonStyle} onClick={this.changeCountry}>Switch Country</button>
         <CountryFlag img={this.state.flag} />
       </div>
     );
