@@ -11,10 +11,10 @@ const buttonStyle = {
   backgroundColor: '#555555'
 }
 
-class CountryFlag extends React.Component {
+class ChangeCountry extends React.Component {
   render() {
     return <button style={buttonStyle} onClick={this.props.action}>Switch Country</button>
   }
 }
 
-export default CountryFlag;
+export default ChangeCountry;
