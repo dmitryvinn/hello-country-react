@@ -8,9 +8,9 @@ class HelloCountry extends React.Component {
     super(props);
     this.state = {
       country: "america",
-      label: "America",
+      label: "Canada",
       flag:
-        "https://rawgit.com/dmitryvinn/hello-country-react/d114bf3970014ad4126fb843ca52fa85f13a6010/src/assets/american-flag.png"
+          "https://i.imgur.com/bh3BkeN.png"
     };
     this.changeCountry = this.changeCountry.bind(this);
   }
@@ -23,12 +23,12 @@ class HelloCountry extends React.Component {
       countryName = "canada";
       countryLabel = "Canada";
       countryFlag =
-        "https://rawgit.com/dmitryvinn/hello-country-react/d114bf3970014ad4126fb843ca52fa85f13a6010/src/assets/canadian-flag.png";
+        "https://i.imgur.com/bh3BkeN.png";
     } else {
       countryName = "america";
-      countryLabel = "America";
+      countryLabel = "Canada";
       countryFlag =
-        "https://rawgit.com/dmitryvinn/hello-country-react/d114bf3970014ad4126fb843ca52fa85f13a6010/src/assets/american-flag.png";
+          "https://i.imgur.com/bh3BkeN.png";
     }
     this.setState({
       country: countryName,
